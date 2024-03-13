@@ -35,14 +35,14 @@
 		3609CE1C2B9E52580095BC34 /* laba3_4sem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = laba3_4sem; sourceTree = BUILT_PRODUCTS_DIR; };
 		3609CE1F2B9E52580095BC34 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		364589BB2BA2112B00A89438 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
-		364589BC2BA2115000A89438 /* Shape2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape2D.h; sourceTree = SOURCE_ROOT; };
-		364589BD2BA2116C00A89438 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = SOURCE_ROOT; };
-		364589BE2BA2118700A89438 /* Shape3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape3D.h; sourceTree = SOURCE_ROOT; };
-		364589BF2BA211A100A89438 /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = SOURCE_ROOT; };
+		364589BC2BA2115000A89438 /* Shape2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shape2D.h; path = laba3_4sem/Programm/Shape2D.h; sourceTree = SOURCE_ROOT; };
+		364589BD2BA2116C00A89438 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Square.h; path = laba3_4sem/Programm/Square.h; sourceTree = SOURCE_ROOT; };
+		364589BE2BA2118700A89438 /* Shape3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shape3D.h; path = laba3_4sem/Programm/Shape3D.h; sourceTree = SOURCE_ROOT; };
+		364589BF2BA211A100A89438 /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = laba3_4sem/Programm/Triangle.h; sourceTree = SOURCE_ROOT; };
 		364589C02BA211B900A89438 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		364589C12BA211CA00A89438 /* TriangularPyramid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangularPyramid.h; sourceTree = "<group>"; };
-		364589C22BA211E500A89438 /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cylinder.h; sourceTree = SOURCE_ROOT; };
-		364589C32BA211F900A89438 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = SOURCE_ROOT; };
+		364589C22BA211E500A89438 /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cylinder.h; path = laba3_4sem/Programm/Cylinder.h; sourceTree = SOURCE_ROOT; };
+		364589C32BA211F900A89438 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = laba3_4sem/Programm/Sphere.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +75,14 @@
 		3609CE1E2B9E52580095BC34 /* laba3_4sem */ = {
 			isa = PBXGroup;
 			children = (
+				369491E02BA219EC0044E1CB /* Programm */,
+			);
+			path = laba3_4sem;
+			sourceTree = "<group>";
+		};
+		369491E02BA219EC0044E1CB /* Programm */ = {
+			isa = PBXGroup;
+			children = (
 				3609CE1F2B9E52580095BC34 /* main.cpp */,
 				364589C32BA211F900A89438 /* Sphere.h */,
 				364589C22BA211E500A89438 /* Cylinder.h */,
@@ -86,7 +94,7 @@
 				364589BC2BA2115000A89438 /* Shape2D.h */,
 				364589BB2BA2112B00A89438 /* Shape.h */,
 			);
-			path = laba3_4sem;
+			path = Programm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
